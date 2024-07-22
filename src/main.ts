@@ -3,12 +3,12 @@ import { Battle } from './scenes/battle.scene';
 import { Game, type Types } from "phaser";
 
 const config: Types.Core.GameConfig = {
-    type: Phaser.AUTO,
+    type: Phaser.WEBGL,
     width: 1024,
     height: 768,
     parent: 'game-container',
-    pixelArt: true,
-    backgroundColor: '#000000',
+    pixelArt: false,
+    backgroundColor: '#fff',
     scale: {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH
