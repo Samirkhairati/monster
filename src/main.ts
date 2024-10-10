@@ -1,4 +1,4 @@
-import { Preloader } from './scenes/preloader.scene';
+import { Preloader } from './scenes/preload';
 import { Battle } from './scenes/battle.scene';
 import { Game, type Types } from "phaser";
 
